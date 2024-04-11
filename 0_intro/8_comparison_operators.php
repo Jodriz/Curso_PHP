@@ -1,0 +1,22 @@
+<?php
+$a = 1;
+$b = 4;
+$c = "1";
+$result = ($a == $c);
+echo "($a == '$c') ".var_dump($result)."<br>";
+$result = ($a === $c);
+echo "($a === '$c') ".var_dump($result)."<br>";
+$result = ($a != $c);
+echo "($a != '$c') ".var_dump($result)."<br>";
+$result = ($a !== $c);
+echo "($a !== '$c') ".var_dump($result)."<br>";
+$result = ($a <> $c);
+echo "($a <> '$c') ".var_dump($result)."<br>";
+$result = ($a > $b);
+echo "($a > $b) ".var_dump($result)."<br>";
+$result = ($a < $b);
+echo "($a < $b) ".var_dump($result)."<br>";
+$result = ($a >= $b);
+echo "($a >= $b) ".var_dump($result)."<br>";
+$result = ($a <= $b);
+echo "($a <= $b) ".var_dump($result)."<br>";

@@ -1,0 +1,20 @@
+<?php
+$name = "Oscar Morochito";
+echo "Original: $name";
+echo "<br>";
+echo "Length: ".strlen( $name );
+echo "<br>";
+echo "Words count: ".str_word_count( $name );
+echo "<br>";
+$name = strtoupper($name);
+echo "Upper: ".$name;
+echo "<br>";
+$name = strtolower($name);
+echo "Lower: ".$name;
+echo "<br>";
+$name = ucfirst($name);
+echo "As sentence: ".$name;
+echo "<br>";
+$name = ucwords($name);
+echo "Capitalize: ".$name;
+echo "<br>";

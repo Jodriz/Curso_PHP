@@ -1,0 +1,22 @@
+<?php 
+$a = 6;
+$b = 3;
+$sum = $a + $b;
+echo "<br>";
+echo "sum: $a + $b = $sum";
+echo "<br>";
+$diff = $a - $b;
+echo "diff: $a - $b = $diff";
+echo "<br>";
+$div = $a / $b;
+echo "div: $a / $b = $div";
+echo "<br>";
+$product = $a * $b;
+echo "product: $a * $b = $product";
+echo "<br>";
+$pow = $a ** $b;
+echo "power: $a ** $b = $pow";
+$mod = ($a+1) % $b;
+echo "<br>";
+$a = $a+1;
+echo "mod: $a % $b = $mod";
